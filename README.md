@@ -6,6 +6,7 @@ Projeto simples desenvolvido para praticar:
 - Encapsulamento
 - Comunicação entre objetos
 - Regras de negócio
+- Coleções
 
 ## Funcionalidades
 
