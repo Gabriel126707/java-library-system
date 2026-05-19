@@ -1,4 +1,4 @@
-package my.java.project4;
+package my.java.project1;
 
 public class Book {
 	
