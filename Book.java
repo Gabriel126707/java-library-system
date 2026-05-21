@@ -1,5 +1,6 @@
 package my.java.project1;
 
+
 public class Book {
 	
 	private String titulo;
@@ -26,7 +27,7 @@ public class Book {
 	public boolean getDisponivel() {
 		return disponivel;
 	}
-	
+		
 	
 	// Methods
 	public void emprestar(User user) {
@@ -85,6 +86,7 @@ public class Book {
 	        );
 	    }
 	}
-
+			
+	
 }
 

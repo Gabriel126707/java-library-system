@@ -1,9 +1,7 @@
 package my.java.project1;
-import java.util.Scanner;
 
 public class Menu {
 	
-	private final Scanner scanner = new Scanner(System.in);
 	private int op;
 	
 	public void mostrarMenu() {
@@ -12,14 +10,17 @@ public class Menu {
 				+ "2 - Listar livros\n"
 				+ "3 - Emprestar livro\n"
 				+ "4 - Devolver livro\n"
-				+ "5 - Sair\n"
+				+ "5 - Remover livro\n"
+				+ "6 - Sair\n"
 				+ "Digite a opção >>> ");
 	}
 	
 	public int getOpcao() {
-		op = scanner.nextInt();
-		scanner.nextLine();
+		op = Main.scanner.nextInt();
+		Main.scanner.nextLine();
 		return op;
 	}
+	
+
 	
 }

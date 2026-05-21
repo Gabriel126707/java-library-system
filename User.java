@@ -2,6 +2,7 @@ package my.java.project1;
 
 public class User {
 	
+	
 	private String name;
 	
 	public User(String name) {
@@ -19,6 +20,6 @@ public class User {
 	public void devolverBook(Book book) {
 		book.devolver(this);
 	}	
-	
+		
 	
 }
